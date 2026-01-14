@@ -1,0 +1,10 @@
+.safety-page {
+  min-height: calc(100vh - 80px);
+}
+
+@media (min-width: 768px) {
+  .safety-page {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}

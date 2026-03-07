@@ -2,7 +2,7 @@
 
 ![Banner](screenshots/banner.png)
 
-![React](https://img.shields.io/badge/Frontend-React-blue)
+ ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)
 ![Status](https://img.shields.io/badge/Project-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-green)

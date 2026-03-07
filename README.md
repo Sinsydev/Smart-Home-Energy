@@ -195,7 +195,7 @@ GitHub
 https://github.com/Sinsydev
 
 LinkedIn
-(Add your LinkedIn profile)
+https://in/sinsy-dev
 
 ---
 

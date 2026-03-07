@@ -1,77 +1,242 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+ # ⚡ Smart Home Energy Monitoring System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner](screenshots/banner.png)
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)
+![Status](https://img.shields.io/badge/Project-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern **Smart Home Energy Monitoring Web Application** that allows users to monitor, analyze, and manage household energy consumption through a real-time dashboard.
 
-## React Compiler
+The system helps users make smarter energy decisions by providing **visual insights, safety monitoring, and maintenance tracking** in a simple and intuitive interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🌍 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Coming soon
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*(Deploy with Vercel, Netlify, or Firebase Hosting and add your link here.)*
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 🎥 Project Demo
+
+![Demo](screenshots/demo.gif)
+
+This demo shows:
+
+* User login
+* Dashboard navigation
+* Energy usage charts
+* System monitoring interface
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+![Home](screenshots/home.png)
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Energy Monitoring Chart
+
+![Chart](screenshots/chart.png)
+
+## Maintenance Page
+
+![Maintenance](screenshots/maintenance.png)
+
+---
+
+# 🚀 Features
+
+### 🔐 Authentication System
+
+* Secure user registration
+* Login functionality
+* Password recovery
+
+### 📊 Energy Monitoring Dashboard
+
+* Real-time energy usage visualization
+* Interactive charts and statistics
+* Easy-to-read data insights
+
+### ⚠️ Safety Monitoring
+
+* Detect abnormal energy usage
+* Alert users to potential system issues
+
+### 🛠 Maintenance Management
+
+* Track system maintenance
+* Monitor equipment status
+
+### 📱 Responsive Design
+
+* Works on desktop and mobile devices
+* Clean and modern user interface
+
+---
+
+# 🎯 Why This Project
+
+Energy efficiency has become increasingly important in modern homes.
+This project demonstrates how web technologies can be used to build a **smart monitoring system that helps users understand and manage their electricity consumption more effectively**.
+
+The goal is to combine **data visualization, monitoring, and safety tracking** into a single easy-to-use platform.
+
+---
+
+# 🏗 System Architecture
+
+The system follows a **client-server architecture**.
+
+User
+↓
+React Frontend
+↓
+Firebase Authentication
+↓
+Firestore Database
+
+---
+
+# 💻 Tech Stack
+
+| Technology   | Purpose                |
+| ------------ | ---------------------- |
+| React.js     | Frontend framework     |
+| React Router | Navigation and routing |
+| Recharts     | Data visualization     |
+| Firebase     | Backend services       |
+| Firestore    | Cloud database         |
+| Git & GitHub | Version control        |
+
+---
+
+# 💡 Skills Demonstrated
+
+* React Component Architecture
+* Client-side Routing
+* Data Visualization
+* Firebase Authentication Integration
+* Cloud Database Management
+* Responsive UI Development
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Sinsydev/smart-home-energy.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the project folder
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd smart-home-energy
 ```
-=======
-# Smart-Energy-Monitoring-and-Maintenance-
->>>>>>> b8b8b5d0064802aa113387e82c40894ade65b022
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open in your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📂 Project Structure
+
+```
+smart-home-energy
+│
+├── public
+│
+├── screenshots
+│   ├── banner.png
+│   ├── demo.gif
+│   ├── home.png
+│   ├── dashboard.png
+│   ├── chart.png
+│   └── maintenance.png
+│
+├── src
+│   ├── components
+│   │   ├── Sidebar.jsx
+│   │   ├── Navbar.jsx
+│   │   └── EnergyChart.jsx
+│   │
+│   ├── pages
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Maintenance.jsx
+│   │   └── Status.jsx
+│   │
+│   ├── services
+│   │   └── firebaseConfig.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── README.md
+└── .gitignore
+```
+
+---
+
+# 🔮 Future Improvements
+
+* IoT smart device integration
+* AI-based energy consumption prediction
+* Mobile application version
+* Advanced analytics and reports
+* Smart notification system
+
+---
+
+# 👨‍💻 Author
+
+**Ismail Aminu Said**
+
+GitHub
+https://github.com/Sinsydev
+
+LinkedIn
+(Add your LinkedIn profile)
+
+---
+
+# ⭐ Support
+
+If you find this project useful, consider giving it a **star ⭐ on GitHub**.
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+

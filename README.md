@@ -1,12 +1,5 @@
  # ⚡ Smart Home Energy Monitoring System
 
-![Banner](screenshots/banner.png)
-
- ![React](https://img.shields.io/badge/Frontend-React-blue)
-![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)
-![Status](https://img.shields.io/badge/Project-Active-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 A modern **Smart Home Energy Monitoring Web Application** that allows users to monitor, analyze, and manage household energy consumption through a real-time dashboard.
 
 The system helps users make smarter energy decisions by providing **visual insights, safety monitoring, and maintenance tracking** in a simple and intuitive interface.
@@ -15,15 +8,11 @@ The system helps users make smarter energy decisions by providing **visual insig
 
 # 🌍 Live Demo
 
-Coming soon
-
-*(Deploy with Vercel, Netlify, or Firebase Hosting and add your link here.)*
+ https://smarthomeenergyplatform.netlify.app/
 
 ---
 
 # 🎥 Project Demo
-
-![Demo](screenshots/demo.gif)
 
 This demo shows:
 
@@ -31,26 +20,6 @@ This demo shows:
 * Dashboard navigation
 * Energy usage charts
 * System monitoring interface
-
----
-
-# 📸 Screenshots
-
-## Home Page
-
-![Home](screenshots/home.png)
-
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-## Energy Monitoring Chart
-
-![Chart](screenshots/chart.png)
-
-## Maintenance Page
-
-![Maintenance](screenshots/maintenance.png)
 
 ---
 

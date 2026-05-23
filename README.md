@@ -135,14 +135,14 @@ http://localhost:5173
 
 ---
 
-# 📂 Project Structure
+ # 📂 Project Structure
 
-```
-smart-home-energy
+
+ smart-home-energy
 │
-├── public
+├── public/
 │
-├── screenshots
+├── screenshots/
 │   ├── banner.png
 │   ├── demo.gif
 │   ├── home.png
@@ -150,27 +150,28 @@ smart-home-energy
 │   ├── chart.png
 │   └── maintenance.png
 │
-├── src
-│   ├── components
-│   │   ├── Sidebar.jsx
-│   │   ├── Navbar.jsx
-│   │   └── EnergyChart.jsx
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.tsx
+│   │   ├── Navbar.tsx
+│   │   └── EnergyChart.tsx
 │   │
-│   ├── pages
-│   │   ├── Home.jsx
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── Maintenance.jsx
-│   │   └── Status.jsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Login.tsx
+│   │   ├── Register.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Maintenance.tsx
+│   │   └── Status.tsx
 │   │
-│   ├── services
-│   │   └── firebaseConfig.js
+│   ├── services/
+│   │   └── firebaseConfig.ts
 │   │
-│   ├── App.jsx
-│   └── main.jsx
+│   ├── App.tsx
+│   └── main.tsx
 │
 ├── package.json
+├── tsconfig.json
 ├── README.md
 └── .gitignore
 ```

@@ -2,6 +2,22 @@
   <img src="src/assets/images/Banner1.png" alt="Smart Home Energy Monitoring System Banner" width="100%">
 </p>
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Recharts-8884D8?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+
+</p>
+
 # ⚡ Smart Home Energy Monitoring System
 
 > A modern web application that empowers homeowners to monitor, analyze, and optimize household energy consumption through real-time dashboards, intelligent insights, and responsive user experiences.

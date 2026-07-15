@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "/media/logo.webp";
 
 export default function Navbar() {
@@ -21,19 +21,17 @@ export default function Navbar() {
         <NavLink
           to="/register"
           className={({ isActive }) =>
-            `font-medium transition duration-200 ${
-              isActive ? "text-white border-b-2 border-white" : "text-gray-300 hover:text-white"
+            `font-medium transition duration-200 ${isActive ? "text-white border-b-2 border-white" : "text-gray-300 hover:text-white"
             }`
           }
         >
           Register
-        </NavLink> 
+        </NavLink>
 
         <NavLink
           to="/login"
           className={({ isActive }) =>
-            `bg-white text-black px-4 py-1.5 rounded-md font-semibold hover:bg-gray-200 transition duration-200 ${
-              isActive ? "border border-black" : ""
+            `bg-white text-black px-4 py-1.5 rounded-md font-semibold hover:bg-gray-200 transition duration-200 ${isActive ? "border border-black" : ""
             }`
           }
         >
@@ -72,9 +70,8 @@ export default function Navbar() {
 
       {/* Sidebar Menu (Mobile) */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-blue-950 text-white z-50 transform transition-transform duration-300 ${
-          menuOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-0 right-0 h-full w-64 bg-blue-950 text-white z-50 transform transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         {/* Header */}
         <div className="flex justify-between items-center px-6 py-4 border-b border-gray-700">
@@ -133,4 +130,3 @@ export default function Navbar() {
 
 
 
- 

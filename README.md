@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="src/assets/images/Banner1.png" alt="Smart Home Energy Monitoring System Banner" width="100%">
+</p>
+
+# ⚡ Smart Home Energy Monitoring System
+
+> A modern web application that empowers homeowners to monitor, analyze, and optimize household energy consumption through real-time dashboards, intelligent insights, and responsive user experiences.
+ 
+ 
  # ⚡ Smart Home Energy Monitoring System
 
 A modern **Smart Home Energy Monitoring Web Application** that allows users to monitor, analyze, and manage household energy consumption through a real-time dashboard.

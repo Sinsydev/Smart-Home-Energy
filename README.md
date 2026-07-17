@@ -171,13 +171,13 @@ This project also reinforced the importance of writing maintainable software, de
 # 🖼 Application Preview
 
 <p align="center">
-  <img src="assets/images/Dashboard1.png" alt="Dashboard Overview" width="48%" />
-  <img src="assets/images/Dashboard2.png" alt="Energy Analytics Dashboard" width="48%" />
+  <img src="src/assets/images/Dashboard1.png" alt="Dashboard Overview" width="48%" />
+  <img src="src/assets/images/Dashboard2.png" alt="Energy Analytics Dashboard" width="48%" />
 </p>
 
 <p align="center">
-  <img src="assets/images/Mobile1.png" alt="Mobile Dashboard" width="30%" />
-  <img src="assets/images/Mobile2.png" alt="Mobile Energy Monitoring" width="30%" />
+  <img src="src/assets/images/Mobile1.png" alt="Mobile Dashboard" width="30%" />
+  <img src="src/assets/images/Mobile2.png" alt="Mobile Energy Monitoring" width="30%" />
 </p>
 
 The screenshots above highlight the application's responsive dashboard, interactive energy analytics, and mobile-friendly interface, demonstrating a consistent user experience across desktop and mobile devices.
